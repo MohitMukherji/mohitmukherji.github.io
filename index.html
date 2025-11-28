@@ -2,7 +2,22 @@
 <head>
     <title>Mohit Mukherji</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <script> fetch("https://raw.githubusercontent.com/MohitMukherji/ITO_stimuli_lookit/refs/heads/master/other/orders.csv")
+  .then(response => response.text())
+  .then(text => {
+    const rows = text
+      .trim()
+      .split("\n")
+      .map(row => row.split(","));
+
+    console.log(rows);        // array of arrays
+    // you can now use rows inside jsPsych
+  });
+    </script>
+    
 </head>
+
+
 <body>
 
   <p align="right">
