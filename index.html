@@ -8,8 +8,7 @@
     const rows = text
       .trim()
 	  .split("\n")
-	  .split("\r")
-      .map(row => row.split(","));
+      .map(row => row.split(",").map(t => t.split("\r")[0]));
 
     console.log(rows);        // array of arrays
     // you can now use rows inside jsPsych
