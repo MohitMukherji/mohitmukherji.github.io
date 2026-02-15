@@ -1,0 +1,72 @@
+td,
+th,
+tr,
+p{
+  /* text-align: left; */
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif, system-ui;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0px;
+}
+
+a:visited,
+a:link{
+  color: #1772d0
+  ;
+}
+
+heading {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif, system-ui;
+  font-size: 22px;
+}
+
+
+.container {
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif, system-ui;
+  width: 75%;
+  font-weight: normal;
+  margin-left: 80px;
+  margin-top: 20px;
+  color: black;
+  background-color:transparent;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+.body-text {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif, system-ui;
+  font-weight: normal;
+  width: 50%;
+  min-width: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: left;
+  flex-grow: 1;
+}
+
+a.body-text:hover {
+  color: #5DBCD2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1.body-text {
+  margin: 0px;
+}
+
+img{
+  float: left;
+}
+
+/* @media (width: 600px) {
+  /* Adjust layout for smaller screens */
+  /* .container {
+    display: block;
+    width: 100%; 
+  } 
+  } */
