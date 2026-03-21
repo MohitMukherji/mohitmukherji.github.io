@@ -3,16 +3,14 @@ a {
     visited: blue
 },
 
+
+heading {
+  font-size: 22px;
+}
+
+
 .container{width:650px;
-	   margin-left:auto;
-	   margin-right:auto;
 	   margin: 0 auto;
 	   font-family:Helvetica, sans-serif;
-	   text-align: justify},
-
-.hang {
-    padding-left: 30px; /* Indents the entire paragraph */
-    text-indent: -30px; /* Pulls the first line back to the left */
-},
-
-
+	   text-align: justify}
+    
