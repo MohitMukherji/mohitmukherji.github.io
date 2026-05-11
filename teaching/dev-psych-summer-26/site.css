@@ -1,0 +1,51 @@
+a {
+    color: blue;
+    visited: blue
+}
+
+
+h1, h2, h3, h4 {
+  color: black;
+}
+
+
+.container {
+	align: center;
+	/* width:800px; */
+	margin: 15px;
+	font-family:Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.15;
+	text-align: justify
+}
+
+
+code {
+    /* font-size: 14px; */
+    font-family: Menlo; Cascadia Code
+	       
+}
+
+
+.blank_row {
+    height: 20px !important; 
+    background-color: #FFFFFF;
+}
+
+td {
+	vertical-align: top;
+}
+
+pre {
+  #display: block;
+  padding: 9.5px;
+  margin: 5px 0 10px;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #111;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #fffcfb;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
