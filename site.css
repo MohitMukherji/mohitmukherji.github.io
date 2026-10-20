@@ -9,8 +9,10 @@ heading {
 }
 
 
-.container{width:650px;
-	   margin: 0 auto;
-	   font-family:Helvetica, sans-serif;
-	   text-align: justify}
-    
+.container{
+  line-height: 1.2;
+  width:650px;
+	margin: 0 auto;
+	font-family:Helvetica, sans-serif;
+	text-align: justify}
+
