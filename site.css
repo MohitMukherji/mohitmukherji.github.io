@@ -5,12 +5,43 @@
   --link: blue;
 }
 
+/* Dark colors: used when the browser prefers dark (unless the visitor
+   picked light with the button), or when the visitor picked dark. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #181818;
     --text: #e6e6e6;
     --link: #88aaee;
   }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #181818;
+  --text: #e6e6e6;
+  --link: #88aaee;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  font: 14px Helvetica, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--text);
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.theme-toggle:hover {
+  opacity: 1;
 }
 
 body {
