@@ -1,7 +1,27 @@
-a {
-    color: blue;
-    visited: blue
-},
+:root {
+  color-scheme: light dark;
+  --bg: white;
+  --text: black;
+  --link: blue;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #181818;
+    --text: #e6e6e6;
+    --link: #88aaee;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a, a:visited {
+    color: var(--link);
+    text-decoration: none;
+}
 
 
 heading {
@@ -14,5 +34,5 @@ heading {
   width:650px;
 	margin: 0 auto;
 	font-family:Helvetica, sans-serif;
+  font-size: 18px;
 	text-align: justify}
-
