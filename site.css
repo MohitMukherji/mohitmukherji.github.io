@@ -62,8 +62,20 @@ heading {
 
 .container{
   line-height: 1.2;
-  width:650px;
+  max-width: 650px;
 	margin: 0 auto;
+  padding: 0 16px;
 	font-family:Helvetica, sans-serif;
   font-size: 18px;
 	text-align: justify}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .container {
+    text-align: left;
+  }
+}
