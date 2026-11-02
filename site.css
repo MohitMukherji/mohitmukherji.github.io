@@ -62,11 +62,11 @@ heading {
 
 .container{
   line-height: 1.2;
-  max-width: 650px;
+  /* max-width: 650px; */
 	margin: 0 auto;
   padding: 0 16px;
 	font-family:Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 	text-align: justify}
 
 img {
